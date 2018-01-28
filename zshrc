@@ -1,5 +1,4 @@
-# Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
+# Lines configured by zsh-newuser-install HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd extendedglob nomatch notify
@@ -26,6 +25,9 @@ alias visbelloff="gsettings set org.gnome.desktop.wm.preferences visual-bell fal
 alias audbell="gsettings set org.gnome.desktop.wm.preferences audible-bell true"
 alias audbellon="gsettings set org.gnome.desktop.wm.preferences audible-bell true"
 alias audbelloff="gsettings set org.gnome.desktop.wm.preferences audible-bell false"
+alias cheeseyvpn="sudo openvpn --config ~/Downloads/General\ Programs/client1.ovpn"
+alias sympy="PYTHONPATH=$READ_GEN_PATH:$PYTHONPATH python -i -c \"from __future__ import division; from sympy import *\""
+alias open="xdg-open"
 # VIM BINDINGS
 alias :q="exit"
 alias :wq="exit"
@@ -35,6 +37,8 @@ alias :qa="exit"
 alias ll="ls -la --color"
 alias la="ls -a --color"
 alias ls="ls --color"
+# Server Conveniences
+alias ubuntuserver="ssh mdoto@68.197.156.61"
 
 XDG_DATA_DIRS="$XDG_DATA_DIRS"
 
@@ -43,6 +47,9 @@ PERL5LIB="/home/mdoto/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB
 PERL_LOCAL_LIB_ROOT="/home/mdoto/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/mdoto/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/mdoto/perl5"; export PERL_MM_OPT;
+
+export HOME_PUBLIC_IP="68.197.156.61"
+export PATH="/home/mdoto/Android/Sdk/platform-tools:/home/mdoto/flutter/bin:${PATH}"
 
 # Keybindings
 # for linux console and RH/Debian xterm
