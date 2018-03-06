@@ -129,7 +129,7 @@ alias visbelloff="gsettings set org.gnome.desktop.wm.preferences visual-bell fal
 alias audbell="gsettings set org.gnome.desktop.wm.preferences audible-bell true"
 alias audbellon="gsettings set org.gnome.desktop.wm.preferences audible-bell true"
 alias audbelloff="gsettings set org.gnome.desktop.wm.preferences audible-bell false"
-alias sympy=PYTHONPATH=$READ_GEN_PATH:$PYTHONPATH python -i -c "from __future__ import division; from sympy import *"
+# alias sympy=PYTHONPATH=$READ_GEN_PATH:$PYTHONPATH python -i -c "from __future__ import division; from sympy import *"
 # VIM BINDINGS
 alias :q="exit"
 alias :wq="exit"
