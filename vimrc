@@ -98,3 +98,8 @@ imap <buffer> ;; <C-O>/%%%<cr><C-O>c3l
 nmap <buffer> ;; /%%%<CR>c3l
 set exrc
 
+" Load local dotfiles
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+	source $LOCALFILE
+endif
