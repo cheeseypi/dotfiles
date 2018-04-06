@@ -1,0 +1,4 @@
+- link:
+     ~/.vimrc: vimrc
+     ~/.bashrc: bashrc
+     ~/.zshrc: zshrc
