@@ -75,6 +75,7 @@ set background=dark
 
 " YCM
 
+set encoding=utf-8
 let g:ycm_server_python_interpreter="/usr/bin/python2"
 let g:ycm_extra_conf_globlist = ['~/Stevens/CS 392 - Systems Programming/*']
 
