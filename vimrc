@@ -14,32 +14,32 @@ nnoremap <TAB> za
 syntax enable
 
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+silent! call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
+silent! Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'scrooloose/syntastic'
+silent! Plugin 'scrooloose/syntastic'
 
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+silent! Plugin 'vim-airline/vim-airline'
+silent! Plugin 'vim-airline/vim-airline-themes'
 
-Plugin 'christoomey/vim-tmux-navigator'
+silent! Plugin 'christoomey/vim-tmux-navigator'
 
-Plugin 'airblade/vim-gitgutter'
+silent! Plugin 'airblade/vim-gitgutter'
 
-Plugin 'c.vim'
+silent! Plugin 'c.vim'
 
-Plugin 'rust-lang/rust.vim'
+silent! Plugin 'rust-lang/rust.vim'
 
-Plugin 'ekalinin/dockerfile.vim'
+silent! Plugin 'ekalinin/dockerfile.vim'
 
-Plugin 'wlangstroth/vim-racket'
+silent! Plugin 'wlangstroth/vim-racket'
 
-Plugin 'paredit.vim'
+silent! Plugin 'paredit.vim'
 
-Bundle 'edkolev/promptline.vim'
+silent! Bundle 'edkolev/promptline.vim'
 
-call vundle#end()
+silent! call vundle#end()
 
 set laststatus=2
 set ttimeoutlen=50
