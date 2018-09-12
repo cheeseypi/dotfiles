@@ -37,8 +37,6 @@ Plugin 'wlangstroth/vim-racket'
 
 Plugin 'paredit.vim'
 
-Plugin 'Valloric/YouCompleteMe'
-
 Bundle 'edkolev/promptline.vim'
 
 call vundle#end()
